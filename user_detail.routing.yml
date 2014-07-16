@@ -1,0 +1,7 @@
+user_detail.user_detail_controller_userGet:
+  path: 'user-detail/{uid}'
+  defaults:
+    _controller: '\Drupal\user_detail\Controller\UserDetailController::userGet'
+    _title: 'user_detail Title'
+  requirements:
+    _permission: 'access content'

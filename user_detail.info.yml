@@ -1,0 +1,5 @@
+name: User Detail
+type: module
+description: Custom module that return a json response of users
+core: 8.x
+package: Demo
